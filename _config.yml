@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "王玉雪"
-description              : "计算机视觉"
+title                    : "Yuxue Wang"
+description              : "Computer Vision"
 repository               : "Chaeyoungxue/Chaeyoungxue.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "王玉雪"
+  name             : "Yuxue Wang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "南京邮电大学"
-  location         : "江苏 南京"
+  bio              : "Nanjing University of Posts and Telecommunications"
+  location         : "Nanjing Jiangsu"
   employer         : #""
   pubmed           : 
   googlescholar    : #""
@@ -161,6 +161,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
