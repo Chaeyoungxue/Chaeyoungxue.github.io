@@ -203,10 +203,9 @@ redirect_from:
     <div class="photo-item" onclick="openModal('/images/DSC_0066.jpg')">
       <img src="/images/DSC_0066.jpg" alt="Urban Landscape" class="photo-img">
       <div class="photo-info">
-        <div class="photo-title">Urban Symphony</div>
-        <div class="photo-desc">Cityscape captured during golden hour, showcasing urban architecture and lighting.</div>
+        <div class="photo-title">NJUPT's cat</div>
         <div class="photo-meta">
-          <span class="photo-date">2024.03</span>
+          <span class="photo-date">2025.10</span>
           <span class="photo-location">Nanjing</span>
         </div>
       </div>
@@ -216,21 +215,47 @@ redirect_from:
     <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
       <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
       <div class="photo-info">
-        <div class="photo-title">Nature's Palette</div>
-        <div class="photo-desc">Vibrant colors of nature captured in a peaceful garden setting.</div>
+        <div class="photo-title">Reflection</div>
         <div class="photo-meta">
-          <span class="photo-date">2024.05</span>
-          <span class="photo-location">Suzhou</span>
+          <span class="photo-date">2025.10</span>
+          <span class="photo-location">Nanjing</span>
         </div>
       </div>
     </div>
 
-  <div class="view-more">
-    <a href="/photo/" class="view-more-btn">
-      View Full Gallery 
-      <span style="font-size: 1.2em;">→</span>
-    </a>
-  </div>
+    <!-- 照片2 -->
+    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
+      <div class="photo-info">
+        <div class="photo-title">Reflection</div>
+        <div class="photo-meta">
+          <span class="photo-date">2025.10</span>
+          <span class="photo-location">Nanjing</span>
+        </div>
+      </div>
+    </div>
+        <!-- 照片2 -->
+    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
+      <div class="photo-info">
+        <div class="photo-title">Reflection</div>
+        <div class="photo-meta">
+          <span class="photo-date">2025.10</span>
+          <span class="photo-location">Nanjing</span>
+        </div>
+      </div>
+    </div>
+        <!-- 照片2 -->
+    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
+      <div class="photo-info">
+        <div class="photo-title">Reflection</div>
+        <div class="photo-meta">
+          <span class="photo-date">2025.10</span>
+          <span class="photo-location">Nanjing</span>
+        </div>
+      </div>
+    </div>
 </div>
 
 <!-- 图片模态框 -->
@@ -288,6 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
 
 
 
