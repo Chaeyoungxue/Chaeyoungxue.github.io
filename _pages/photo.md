@@ -1,14 +1,22 @@
 ---
-permalink: /
-title: ""
-excerpt: ""
+permalink: /photo/
+title: "Photo Gallery"
+excerpt: "Personal Photos"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-<span class='anchor' id='photo'></span>
+# 📸 Photo Gallery
+<div class="photo-gallery">
+  <h3>Personal Photos</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+    <img src="/assets/images/photo1.jpg" alt="Photo 1">
+    <img src="/assets/images/photo2.jpg" alt="Photo 2">
+    <img src="/assets/images/photo3.jpg" alt="Photo 3">
+    <img src="/assets/images/photo4.jpg" alt="Photo 4">
+  </div>
+</div>
 
-# 🎓 Education
-- *Sep 2022 - Jun 2026*, <a href="https://www.njupt.edu.cn/"></a> B.Eng. in Internet of Things Engineering, Nanjing University of Posts and Telecommunications, Nanjing, Jiangsu
+<!-- 可以添加返回首页的链接 -->
+<p style="margin-top: 2rem;">
+  <a href="/">← Back to Home</a>
+</p>
