@@ -50,15 +50,41 @@ redirect_from:
   margin: 3rem 0;
 }
 
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+.photo-carousel-container {
+  position: relative;
   margin: 2rem 0;
 }
 
+.photo-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.photo-carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.photo-carousel::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.photo-carousel::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.photo-carousel::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
 .photo-item {
-  position: relative;
+  flex: 0 0 300px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -95,12 +121,6 @@ redirect_from:
   font-size: 1.1rem;
 }
 
-.photo-desc {
-  color: #666;
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
 .photo-meta {
   display: flex;
   justify-content: space-between;
@@ -120,27 +140,34 @@ redirect_from:
   font-size: 0.8rem;
 }
 
-.view-more {
-  text-align: center;
-  margin-top: 2rem;
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.view-more-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.8rem 1.5rem;
+.nav-btn {
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  text-decoration: none;
-  border-radius: 25px;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
   transition: all 0.3s ease;
-  font-weight: 500;
+  font-size: 0.9rem;
 }
 
-.view-more-btn:hover {
+.nav-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 /* 模态框样式 */
@@ -193,69 +220,87 @@ redirect_from:
 .close:hover {
   color: #ccc;
 }
+
+.photo-counter {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
 </style>
-
+<p>Embrace the Life</p>
 <div class="photography-section">
-  <p>Capturing moments and perspectives through my lens. Here are some of my favorite shots that showcase my passion for photography.</p>
-  
-  <div class="photo-grid">
-    <!-- 照片1 -->
-    <div class="photo-item" onclick="openModal('/images/DSC_0066.jpg')">
-      <img src="/images/DSC_0066.jpg" alt="Urban Landscape" class="photo-img">
-      <div class="photo-info">
-        <div class="photo-title">NJUPT's cat</div>
-        <div class="photo-meta">
-          <span class="photo-date">2025.10</span>
-          <span class="photo-location">Nanjing</span>
+  <div class="photo-carousel-container">
+    <div class="photo-carousel" id="photoCarousel">
+      <!-- 照片1 -->
+      <div class="photo-item" onclick="openModal('/images/DSC_0066.jpg')">
+        <img src="/images/DSC_0066.jpg" alt="NJUPT's cat" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">NJUPT's cat</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
         </div>
       </div>
+
+      <!-- 照片2 -->
+      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Reflection</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 照片3 -->
+      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Reflection</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 照片4 -->
+      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Reflection</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 照片5 -->
+      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
+        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Reflection</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 可以继续添加更多照片 -->
     </div>
 
-    <!-- 照片2 -->
-    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
-      <div class="photo-info">
-        <div class="photo-title">Reflection</div>
-        <div class="photo-meta">
-          <span class="photo-date">2025.10</span>
-          <span class="photo-location">Nanjing</span>
-        </div>
-      </div>
+    <div class="carousel-nav">
+      <button class="nav-btn" onclick="scrollCarousel(-1)">← Previous</button>
+      <button class="nav-btn" onclick="scrollCarousel(1)">Next →</button>
     </div>
-
-    <!-- 照片2 -->
-    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
-      <div class="photo-info">
-        <div class="photo-title">Reflection</div>
-        <div class="photo-meta">
-          <span class="photo-date">2025.10</span>
-          <span class="photo-location">Nanjing</span>
-        </div>
-      </div>
-    </div>
-        <!-- 照片2 -->
-    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
-      <div class="photo-info">
-        <div class="photo-title">Reflection</div>
-        <div class="photo-meta">
-          <span class="photo-date">2025.10</span>
-          <span class="photo-location">Nanjing</span>
-        </div>
-      </div>
-    </div>
-        <!-- 照片2 -->
-    <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-      <img src="/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
-      <div class="photo-info">
-        <div class="photo-title">Reflection</div>
-        <div class="photo-meta">
-          <span class="photo-date">2025.10</span>
-          <span class="photo-location">Nanjing</span>
-        </div>
-      </div>
-    </div>
+    <div class="photo-counter" id="photoCounter">1-3 of 5</div>
+  </div>
 </div>
 
 <!-- 图片模态框 -->
@@ -265,6 +310,33 @@ redirect_from:
 </div>
 
 <script>
+let currentScroll = 0;
+const carousel = document.getElementById('photoCarousel');
+const photoItems = document.querySelectorAll('.photo-item');
+const itemWidth = 300 + 24; // 300px width + 24px gap
+const visibleItems = 3;
+const totalItems = photoItems.length;
+
+function updateCounter() {
+  const start = Math.floor(currentScroll / itemWidth) + 1;
+  const end = Math.min(start + visibleItems - 1, totalItems);
+  document.getElementById('photoCounter').textContent = `${start}-${end} of ${totalItems}`;
+}
+
+function scrollCarousel(direction) {
+  const maxScroll = (totalItems - visibleItems) * itemWidth;
+  
+  currentScroll += direction * itemWidth * visibleItems;
+  currentScroll = Math.max(0, Math.min(currentScroll, maxScroll));
+  
+  carousel.scrollTo({
+    left: currentScroll,
+    behavior: 'smooth'
+  });
+  
+  updateCounter();
+}
+
 // 打开模态框
 function openModal(src) {
   const modal = document.getElementById('imageModal');
@@ -292,28 +364,12 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-// 添加滚动动画
-document.addEventListener('DOMContentLoaded', function() {
-  const photoItems = document.querySelectorAll('.photo-item');
-  
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-      }
-    });
-  }, { threshold: 0.1 });
-  
-  photoItems.forEach(item => {
-    item.style.opacity = '0';
-    item.style.transform = 'translateY(30px)';
-    item.style.transition = 'all 0.6s ease';
-    observer.observe(item);
-  });
+// 初始化计数器
+updateCounter();
+
+// 监听滚动事件（用户手动滚动时更新计数器）
+carousel.addEventListener('scroll', function() {
+  currentScroll = carousel.scrollLeft;
+  updateCounter();
 });
 </script>
-
-
-
-
