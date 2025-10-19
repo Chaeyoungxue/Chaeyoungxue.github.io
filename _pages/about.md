@@ -23,7 +23,7 @@ redirect_from:
 
 <span class='anchor' id='-xyjx'></span>
 
-# 🏅 学业奖项
+# 🏆 学业奖项
 - *2023.02* 获得 南京邮电大学”大学生心理健康教育短视频大赛“三等奖 
 - *2023.09* 获得 南京邮电大学单科学习成绩优秀奖
 - *2024.09* 获得 南京邮电大学校一等奖学金、三好学生
@@ -41,6 +41,7 @@ redirect_from:
 
 # 🏛️ 学术会议
 - *2025.05*, International Conference on Intelligent Computing（ICIC 2025）, 浙江宁波
+
 
 
 
