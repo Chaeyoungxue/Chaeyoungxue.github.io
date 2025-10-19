@@ -52,7 +52,7 @@ redirect_from:
 
 .photo-carousel-container {
   position: relative;
-  margin: 2rem 0;
+  margin: 0.5rem 0;
 }
 
 .photo-carousel {
@@ -184,16 +184,16 @@ redirect_from:
 }
 
 .modal-content {
-  position: relative;
+  position: absolute;
   margin: auto;
   display: block;
-  width: 90%;
-  max-width: 700px;
-  max-height: 80vh;
+  max-width: 90vw;
+  max-height: 90vh;
   top: 50%;
-  transform: translateY(-50%);
-  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
   animation: zoomIn 0.3s ease;
+  object-fit: contain;
 }
 
 @keyframes fadeIn {
@@ -228,9 +228,12 @@ redirect_from:
   margin-top: 0.5rem;
 }
 </style
-<p> 🫶 Embrace The Life 🫶</p>
+
+<p style="font-style: italic; font-size: 1.1rem; color: #555;">
+  🫶 Embrace The Life 🫶
+</p>
 <div class="photography-section">
-  <div class="photo-carousel-container">
+  <div class="">
     <div class="photo-carousel" id="photoCarousel">
       <!-- 照片1 -->
       <div class="photo-item" onclick="openModal('/images/DSC_0066.jpg')">
@@ -333,4 +336,5 @@ carousel.addEventListener('scroll', function() {
   updateCounter();
 });
 </script>
+
 
