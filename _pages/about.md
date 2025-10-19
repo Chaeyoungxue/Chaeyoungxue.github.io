@@ -227,9 +227,16 @@ redirect_from:
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }
+.photo-intro {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
 </style
 
-<p style="font-style: italic; font-size: 1.1rem; color: #555;">
+<p class="photo-intro">
   🫶 Embrace The Life 🫶
 </p>
 <div class="photography-section">
@@ -336,5 +343,6 @@ carousel.addEventListener('scroll', function() {
   updateCounter();
 });
 </script>
+
 
 
