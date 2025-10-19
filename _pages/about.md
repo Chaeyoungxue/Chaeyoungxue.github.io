@@ -41,7 +41,7 @@ redirect_from:
 # 🏛️ Academic Conferences
 - *May 2025*, International Conference on Intelligent Computing (ICIC 2025), Ningbo, Zhejiang
 
-<span class='anchor' id='photography'></span>
+<span class='anchor' id='photo'></span>
 
 # 📷 Photography
 
@@ -288,3 +288,4 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
