@@ -234,7 +234,7 @@ redirect_from:
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
-</style
+</style>
 
 <p class="photo-intro">
   🫶 Embrace The Life 🫶
@@ -343,6 +343,7 @@ carousel.addEventListener('scroll', function() {
   updateCounter();
 });
 </script>
+
 
 
 
