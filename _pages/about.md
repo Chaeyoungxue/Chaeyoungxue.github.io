@@ -47,7 +47,7 @@ redirect_from:
 
 <style>
 .photography-section {
-  margin: 3rem 0;
+  margin: 0.5rem 0;
 }
 
 .photo-carousel-container {
@@ -227,8 +227,8 @@ redirect_from:
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }
-</style>
-<p>Embrace the Life</p>
+</style
+<p> 🫶 Embrace The Life 🫶</p>
 <div class="photography-section">
   <div class="photo-carousel-container">
     <div class="photo-carousel" id="photoCarousel">
@@ -256,50 +256,10 @@ redirect_from:
         </div>
       </div>
 
-      <!-- 照片3 -->
-      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
-        <div class="photo-info">
-          <div class="photo-title">Reflection</div>
-          <div class="photo-meta">
-            <span class="photo-date">2025.10</span>
-            <span class="photo-location">Nanjing</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- 照片4 -->
-      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
-        <div class="photo-info">
-          <div class="photo-title">Reflection</div>
-          <div class="photo-meta">
-            <span class="photo-date">2025.10</span>
-            <span class="photo-location">Nanjing</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- 照片5 -->
-      <div class="photo-item" onclick="openModal('/images/DSC_0025.jpg')">
-        <img src="/images/DSC_0025.jpg" alt="Reflection" class="photo-img">
-        <div class="photo-info">
-          <div class="photo-title">Reflection</div>
-          <div class="photo-meta">
-            <span class="photo-date">2025.10</span>
-            <span class="photo-location">Nanjing</span>
-          </div>
-        </div>
-      </div>
 
       <!-- 可以继续添加更多照片 -->
     </div>
 
-    <div class="carousel-nav">
-      <button class="nav-btn" onclick="scrollCarousel(-1)">← Previous</button>
-      <button class="nav-btn" onclick="scrollCarousel(1)">Next →</button>
-    </div>
-    <div class="photo-counter" id="photoCounter">1-3 of 5</div>
   </div>
 </div>
 
@@ -373,3 +333,4 @@ carousel.addEventListener('scroll', function() {
   updateCounter();
 });
 </script>
+
