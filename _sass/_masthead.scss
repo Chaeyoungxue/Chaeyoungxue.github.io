@@ -47,6 +47,7 @@
   @include breakpoint($medium) {
     display: block !important;
       }
+   align-items: center; 
  // display: none !important;
 }
 
@@ -60,6 +61,7 @@
     font-weight: 700;
   }
 }
+
 
 
 
