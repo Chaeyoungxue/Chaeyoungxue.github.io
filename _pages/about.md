@@ -15,34 +15,28 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<span class='anchor' id='-education'></span>
 
-<span class='anchor' id='-xl'></span>
+# 🎓 Education
+- *Sep 2022 - Jun 2026*, <a href="https://www.njupt.edu.cn/"></a> B.Eng. in Internet of Things Engineering, Nanjing University of Posts and Telecommunications, Nanjing, Jiangsu
 
-# 🎓 学历
-- *2022.09 - 2026.06*, <a href="https://www.njupt.edu.cn/"></a> 南京邮电大学 物联网工程, 江苏南京, 本科
+<span class='anchor' id='-academic-awards'></span>
 
-<span class='anchor' id='-xyjx'></span>
+# 🏆 Academic Awards
+- *Feb 2023* Third Prize, "College Student Mental Health Education Short Video Competition", Nanjing University of Posts and Telecommunications
+- *Sep 2023* Single Subject Academic Excellence Award, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
 
-# 🏆 学业奖项
-- *2023.02* 获得 南京邮电大学”大学生心理健康教育短视频大赛“三等奖 
-- *2023.09* 获得 南京邮电大学单科学习成绩优秀奖
-- *2024.09* 获得 南京邮电大学校一等奖学金、三好学生
+<span class='anchor' id='-honors-awards'></span>
 
-<span class='anchor' id='-ryjx'></span>
+# 🏅 Honors & Competitions
+- *Apr 2024* Honorable Mention, Mathematical Contest in Modeling (MCM)
+- *Jul 2024* Second Prize (East China Division II), Engineering Practice, "Siemens Cup" China Intelligent Challenge
+- *Aug 2024* Second Prize (Jiangsu Division), "Beidou Cup" National Youth Aerospace Technology Experience and Innovation Competition
+- *Aug 2024* Third Prize (National Finals), "China Software Cup" College Student Software Design Competition
+- *Mar 2025* Second Prize (Preliminary Round), National College Mathematics Competition
 
-# 🏅 荣誉奖项
-- *2024.04* 获得 美国大学生数学建模大赛H奖 
-- *2024.07* 获得 “西门子杯”中国智能挑战赛华东二赛区工程实践二等奖
-- *2024.08* 获得 “北斗杯”全国青少年空天科技体验与创新大赛江苏赛区二等奖
-- *2024.08* 获得 “中国软件杯”大学生软件设计大赛总决赛三等奖
-- *2025.03* 获得 全国大学生数学竞赛预赛二等奖
+<span class='anchor' id='-academic-conferences'></span>
 
-<span class='anchor' id='-xshy'></span>
-
-# 🏛️ 学术会议
-- *2025.05*, International Conference on Intelligent Computing（ICIC 2025）, 浙江宁波
-
-
-
-
-
+# 🏛️ Academic Conferences
+- *May 2025*, International Conference on Intelligent Computing (ICIC 2025), Ningbo, Zhejiang
