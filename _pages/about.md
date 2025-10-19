@@ -23,41 +23,26 @@ redirect_from:
 <span class='anchor' id='academic-awards'></span>
 
 # 🏆 Academic Awards
+- *Sep 2024* First-Class Scholarship And Merit Student, Nanjing University of Posts and Telecommunications
 - *Feb 2023* Third Prize, "College Student Mental Health Education Short Video Competition", Nanjing University of Posts and Telecommunications
 - *Sep 2023* Single Subject Academic Excellence Award, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
-- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+
 
 
 <span class='anchor' id='honors-awards'></span>
 
 # 🏅 Honors And Competitions
-- *Apr 2024* Honorable Mention, Mathematical Contest in Modeling (MCM)
-- *Jul 2024* Second Prize (East China Division II), Engineering Practice, "Siemens Cup" China Intelligent Challenge
-- *Aug 2024* Second Prize (Jiangsu Division), "Beidou Cup" National Youth Aerospace Technology Experience and Innovation Competition
-- *Aug 2024* Third Prize (National Finals), "China Software Cup" College Student Software Design Competition
 - *Mar 2025* Second Prize (Preliminary Round), National College Mathematics Competition
+- *Aug 2024* Third Prize (National Finals), "China Software Cup" College Student Software Design Competition
+- *Aug 2024* Second Prize (Jiangsu Division), "Beidou Cup" National Youth Aerospace Technology Experience and Innovation Competition
+- *Jul 2024* Second Prize (East China Division II), Engineering Practice, "Siemens Cup" China Intelligent Challenge
+- *Apr 2024* Honorable Mention, Mathematical Contest in Modeling (MCM)
 
 <span class='anchor' id='academic-conferences'></span>
 
 # 🏛️ Academic Conferences
 - *May 2025*, International Conference on Intelligent Computing (ICIC 2025), Ningbo, Zhejiang
+
 
 
 
