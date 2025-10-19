@@ -201,7 +201,7 @@ redirect_from:
   <div class="photo-grid">
     <!-- 照片1 -->
     <div class="photo-item" onclick="openModal('assets/images/DSC_0066.jpg')">
-      <img src="assets/images/photo1.jpg" alt="Urban Landscape" class="photo-img">
+      <img src="assets/images/DSC_0066.jpg" alt="Urban Landscape" class="photo-img">
       <div class="photo-info">
         <div class="photo-title">Urban Symphony</div>
         <div class="photo-desc">Cityscape captured during golden hour, showcasing urban architecture and lighting.</div>
@@ -214,7 +214,7 @@ redirect_from:
 
     <!-- 照片2 -->
     <div class="photo-item" onclick="openModal('assets/images/DSC_0025.jpg')">
-      <img src="assets/images/photo2.jpg" alt="Nature Scene" class="photo-img">
+      <img src="assets/images/DSC_0025.jpg" alt="Nature Scene" class="photo-img">
       <div class="photo-info">
         <div class="photo-title">Nature's Palette</div>
         <div class="photo-desc">Vibrant colors of nature captured in a peaceful garden setting.</div>
@@ -288,4 +288,5 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
 
