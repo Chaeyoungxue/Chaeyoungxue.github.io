@@ -9,7 +9,8 @@ main:
   - title: "Conferences"
     url: "/#academic-conferences"
   - title: "Photo"
-    url: "/photo"
+    url: "/photo/"
+
 
 
 
