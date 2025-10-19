@@ -29,7 +29,7 @@ redirect_from:
 
 <span class='anchor' id='-honors-awards'></span>
 
-# 🏅 Honors & Competitions
+# 🏅 Honors And Competitions
 - *Apr 2024* Honorable Mention, Mathematical Contest in Modeling (MCM)
 - *Jul 2024* Second Prize (East China Division II), Engineering Practice, "Siemens Cup" China Intelligent Challenge
 - *Aug 2024* Second Prize (Jiangsu Division), "Beidou Cup" National Youth Aerospace Technology Experience and Innovation Competition
@@ -40,3 +40,4 @@ redirect_from:
 
 # 🏛️ Academic Conferences
 - *May 2025*, International Conference on Intelligent Computing (ICIC 2025), Ningbo, Zhejiang
+
