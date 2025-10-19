@@ -26,6 +26,32 @@ redirect_from:
 - *Feb 2023* Third Prize, "College Student Mental Health Education Short Video Competition", Nanjing University of Posts and Telecommunications
 - *Sep 2023* Single Subject Academic Excellence Award, Nanjing University of Posts and Telecommunications
 - *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2023* Single Subject Academic Excellence Award, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2023* Single Subject Academic Excellence Award, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
+- *Sep 2024* First-Class Scholarship & Merit Student, Nanjing University of Posts and Telecommunications
 
 <span class='anchor' id='-honors-awards'></span>
 
@@ -40,4 +66,5 @@ redirect_from:
 
 # 🏛️ Academic Conferences
 - *May 2025*, International Conference on Intelligent Computing (ICIC 2025), Ningbo, Zhejiang
+
 
