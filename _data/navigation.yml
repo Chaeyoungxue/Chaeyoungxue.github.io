@@ -4,10 +4,11 @@ main:
     url: "/#education"
   - title: "Academic Awards"
     url: "/#academic-awards"
-  - title: "Honors & Competitions"
+  - title: "Honors And Competitions"
     url: "/#honors-awards"
   - title: "Conferences"
     url: "/#academic-conferences"
+
 
 
 
