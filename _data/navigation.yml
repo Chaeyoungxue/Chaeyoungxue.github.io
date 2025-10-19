@@ -1,10 +1,14 @@
 # main links links
 main:
-  - title: "简介"
-    url: "/zh-cn/#about-me"
+  - title: "Education"
+    url: "/#education"
+  - title: "Academic Awards"
+    url: "/#academic-awards"
+  - title: "Honors & Competitions"
+    url: "/#honors-awards"
+  - title: "Conferences"
+    url: "/#academic-conferences"
 
-  - title: "摄影"
-    url: "/zh-cn/#photo"
 
 
 
