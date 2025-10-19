@@ -47,8 +47,6 @@
   @include breakpoint($medium) {
     display: block !important;
       }
-  padding-top: 8px;      // 推荐使用这个
-  padding-bottom: 8px;
  // display: none !important;
 }
 
@@ -62,6 +60,7 @@
     font-weight: 700;
   }
 }
+
 
 
 
