@@ -8,6 +8,9 @@ main:
     url: "/#honors-awards"
   - title: "Conferences"
     url: "/#academic-conferences"
+  - title: "Photo"
+    url: "/photo"
+
 
 
 
