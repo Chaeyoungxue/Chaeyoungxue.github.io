@@ -266,6 +266,28 @@ redirect_from:
         </div>
       </div>
 
+            <!-- 照片3 -->
+      <div class="photo-item" onclick="openModal('/images/公交车.jpg')">
+        <img src="/images/公交车.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Bus</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-item" onclick="openModal('/images/花墙.jpg')">
+        <img src="/images/花墙.jpg" alt="Reflection" class="photo-img">
+        <div class="photo-info">
+          <div class="photo-title">Flower</div>
+          <div class="photo-meta">
+            <span class="photo-date">2025.10</span>
+            <span class="photo-location">Nanjing</span>
+          </div>
+        </div>
+      </div>
 
       <!-- 可以继续添加更多照片 -->
     </div>
@@ -343,6 +365,7 @@ carousel.addEventListener('scroll', function() {
   updateCounter();
 });
 </script>
+
 
 
 
